@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Karnepuanhesabla {
+public class AhmetPolat {
     public static void main(String[] args){
         Scanner input = new Scanner (System.in);
         double sonuc;
