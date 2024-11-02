@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class odev2 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int sayi1, sayi2, sayi3;
+
+        System.out.println(
+                "hangisinin daha büyü bulcumatör programı çalıştırıldı lütfen hangisinin daha büyük olduğunu öğrenmek için 3 sayı giriniz.");
+
+        System.out.println("1. sayınızı giriniz: ");
+        sayi1 = input.nextInt();
+
+        System.out.println("2. sayınızı giriniz: ");
+        sayi2 = input.nextInt();
+
+        System.out.println("3. sayınızı giriniz: ");
+        sayi3 = input.nextInt();
+
+        int enBuyuk = sayi1;
+
+        if (sayi2 > enBuyuk) {
+            enBuyuk = sayi2;
+        }
+        if (sayi3 > enBuyuk) {
+            enBuyuk = sayi3;
+
+        }
+        System.out.println("Girdiğiniz sayılar arasındaki en büyüğü " + enBuyuk);
+
+    }
+}
