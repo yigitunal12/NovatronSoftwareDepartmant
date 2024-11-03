@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class odev1 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Lütfen bir sayı giriniz");
+        int sayi = input.nextInt();
+        if (sayi < 0) {
+            System.out.println("girdiğiniz sayı negatiftir.");
+        } else if (sayi > 0) {
+            System.out.println("girdiğiniz sayı pozitiftir");
+
+        }
+
+        else if (sayi == 0) {
+            System.out.println("girdiğiniz sayı nötr dür yani sayınız 0 .");
+
+        } else {
+            System.out.println("HATA: girdiğiniz sayı bir tam sayı yani INT olmalıdır.");
+        }
+    }
+}
