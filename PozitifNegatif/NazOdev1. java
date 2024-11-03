@@ -1,0 +1,15 @@
+// 1.odev
+import java.util.Scanner;
+class Odev {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int input = s.nextInt();
+        if(input > 0){
+            System.out.println("Girdiginiz sayi pozitif");
+        }else if (input < 0){
+            System.out.println("Girdiginiz sayi negatif");
+        }else{
+            System.out.println("Girdiginiz sayi sifirdir");
+        }
+    }
+}
