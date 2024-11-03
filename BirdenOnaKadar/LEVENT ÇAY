@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class odev3 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("program hangi sayıda son bulsun?");
+        int sayi = input.nextInt();
+
+        System.out.println("hangi sayının katlarını yazdırmak istersiniz?");
+        int katsayi = input.nextInt();
+
+        for (int i = 1; i < sayi; i++) {
+            if (i % katsayi == 0) {
+                System.out.println(i);
+            }
+
+        }
+
+    }
+}
