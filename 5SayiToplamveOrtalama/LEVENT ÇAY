@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class odev4 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("5 sayı giriniz ve her sayının arasına bir boşluk brakın.");
+        int sayi1 = input.nextInt();
+        int sayi2 = input.nextInt();
+        int sayi3 = input.nextInt();
+        int sayi4 = input.nextInt();
+        int sayi5 = input.nextInt();
+
+        System.out.println("girdiğiniz sayıların toplamı = " + (sayi1 + sayi2 + sayi3 + sayi4 + sayi5));
+        System.out.println("girdiğiniz sayıların ortalaması ise =" + (sayi1 + sayi2 + sayi3 + sayi4 + sayi5) / 5);
+    }
+}
