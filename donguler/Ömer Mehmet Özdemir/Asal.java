@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App {
+public class Asal {
     static Boolean isPrime(int x) {
         int n = 0;
 
